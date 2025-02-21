@@ -4,3 +4,38 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Roboto', sans-serif;
+    background: gray;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.gota {
+}
+.titulo {
+    background: blue;
+    height: 592px;
+    width: 707px;
+}
+.marca {
+    background: red;
+    height: 100px;
+    width: 100px;
+}
+.cards {
+    background: yellow;
+    height: 100px;
+    width: 100px;
+}
+/* Grid para tarjetas */
+.grid-container {    
+    display: grid; 
+    height: 100%;   
+    grid-template-columns: repeat(1, 1fr);    
+    gap: 15px;    
+    padding: 20px;}
+.box {    
+    background: orange;    
+    padding: 20px;    
+    text-align: center;}
